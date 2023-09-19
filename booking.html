@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Book Now</title>
+        <link rel = "Stylesheet" href="css/booking.css">
+    </head>
+
+    <body>
+
+        <style>
+            body{
+                background-color: #009688;
+            }
+        </style>
+
+        <div class="main">
+            <div class="form">
+                <div class="form-text">
+                    <h1><u>Book Now</u></h1>
+                </div>
+
+                <div class="main-form">
+                    <form action="index.php" method="get">
+                        <div>
+                            <span>Full Name</span>
+                            <input type="text" name="name" id="name" placeholder="write your name here.." required>
+                        </div>
+
+                        <div>
+                            <span>Email Address</span>
+                            <input type="email" name="name" id="name" placeholder="write your email here.." required>
+                        </div>
+
+                        <div>
+                            <span>How many people?</span>
+                            <select name="people" id="people" required>
+                                <option value=""> Click here </option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <span>Time</span>
+                            <input type="text" name="time" id="time" placeholder="time" required>
+                        </div>
+
+                        <div>
+                            <span>Date</span>
+                            <input type="date" name="date" id="date" placeholder="date" required>
+                        </div>
+
+                        <div>
+                            <span>Phone Number</span>
+                            <input type="number" name="number" id="number" placeholder="Write down your number here.." required>
+                        </div>
+
+                        <div id="submit">
+                            <input type="submit" value="SUBMIT" id="submit">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <footer>
+        <div class="position">
+            <center>
+            <form action="index.html">
+                <button type="submit" class="button">HOME</button>
+            </form>
+             &copy;2023 </center>
+        </div>
+    </footer>
+</html>
